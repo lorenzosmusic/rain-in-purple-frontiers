@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="6000" name="rain in purple organ" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="29286" name-counter="1" event-counter="1696" vca-counter="1">
+<Session version="6000" name="rain in purple organ" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="37628" name-counter="1" event-counter="1719" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4.1" modified-with="Ardour 6.9.0~ds0-1build1"/>
   <MIDIPorts>
     <Port name="MIDI Clock out" direction="output"/>
@@ -1672,7 +1672,7 @@
         <AutomationList automation-id="monitor" id="12165" interpolation-style="Discrete" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="12141" flags="" value="0.21515384615384614"/>
+        <Controllable name="pan-azimuth" id="12141" flags="" value="0.21515384316444397"/>
         <Controllable name="pan-width" id="12145" flags="" value="0"/>
         <Controllable name="pan-elevation" id="12143" flags="" value="0"/>
         <Controllable name="pan-frontback" id="12147" flags="" value="0"/>
@@ -1779,7 +1779,7 @@
 Used Octavgtr on synth
 notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
       <Pannable>
-        <Controllable name="pan-azimuth" id="27987" flags="" value="0.71753846153846146"/>
+        <Controllable name="pan-azimuth" id="27987" flags="" value="0.71753847599029541"/>
         <Controllable name="pan-width" id="27991" flags="" value="0"/>
         <Controllable name="pan-elevation" id="27989" flags="" value="0"/>
         <Controllable name="pan-frontback" id="27993" flags="" value="0"/>
@@ -9229,7 +9229,7 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
       </Region>
     </Playlist>
     <Playlist id="28013" name="keys guit?" type="audio" orig-track-id="27968" pgroup-id="2023-07-31 23.34.35" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="keys guit?-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="264600" length="529200" position="7871850" beat="476" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="5.7518143653869629" id="28039" type="audio" first-edit="nothing" source-0="28015" master-source-0="28015" channels="1">
+      <Region name="keys guit?-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="264600" length="529200" position="7871850" beat="476" sync-position="264600" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="5.7518143653869629" id="28039" type="audio" first-edit="nothing" source-0="28015" master-source-0="28015" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="28044" interpolation-style="Exponential" state="Off">
             <events>0 1.0000001333333346
@@ -11287,7 +11287,6 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
     <Protocol name="Wiimote" active="0" session-state="0"/>
   </ControlProtocols>
   <Extra>
-    <ExportRevision revision="1"/>
     <RangeExportProfile>
       <ExportTimespan format="Timecode">
         <Range id="5114"/>
@@ -11312,6 +11311,31 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
         <Field name="date" enabled="0" value="D_None"/>
       </ExportFilename>
     </RangeExportProfile>
+    <ExportRevision revision="1"/>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="251"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="0" channels="2">
+        <Channel number="1">
+          <Port name="Master/audio_out 1"/>
+        </Channel>
+        <Channel number="2">
+          <Port name="Master/audio_out 2"/>
+        </Channel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="13765a92-0ab8-464e-ac1b-a5320572bf7d"/>
+      <ExportFilename>
+        <Folder relative="1" path="export"/>
+        <Field name="label" enabled="1" value="added-keys-guit-idea"/>
+        <Field name="session" enabled="1"/>
+        <Field name="snapshot" enabled="0"/>
+        <Field name="timespan" enabled="1"/>
+        <Field name="revision" enabled="0"/>
+        <Field name="time" enabled="0" value="T_None"/>
+        <Field name="date" enabled="1" value="D_BEShortY"/>
+      </ExportFilename>
+    </ExportProfile>
     <UI>
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="session-options-editor" visible="0" x-off="0" y-off="335" x-size="750" y-size="368"/>
@@ -11344,6 +11368,7 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
       <Window name="RPM-1708" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-1885" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-3617" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-27968" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-9617" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-12122" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-54-290" visible="0" x-off="1028" y-off="0" x-size="847" y-size="404" custom-ui="1"/>
@@ -11352,8 +11377,7 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
       <Window name="PM-158-317" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-9617-20438" visible="0" x-off="0" y-off="372" x-size="1037" y-size="708" custom-ui="1"/>
       <Window name="PM-9617-20438" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-27968" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-12122-28241" visible="0" x-off="87" y-off="680" x-size="382" y-size="400" custom-ui="1"/>
+      <Window name="P-12122-28241" visible="0" x-off="1183" y-off="0" x-size="382" y-size="400" custom-ui="1"/>
       <Window name="PM-12122-28241" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
