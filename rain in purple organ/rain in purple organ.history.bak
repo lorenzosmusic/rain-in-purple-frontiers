@@ -7,22 +7,6 @@
         <length from="263664" to="225176"/>
         <position from="11245500" to="11283988"/>
         <beat from="680" to="682.32731670445958"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="117639" interpolation-style="Exponential" state="Off">
-              <events>0 1
-263664 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="117640" interpolation-style="Exponential" state="Off">
-              <events>0 1.0000001000000001
-225176 1
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="45" type-name="SelectionMemento">
@@ -66,22 +50,6 @@
     <StatefulDiffCommand obj-id="117696" type-name="ARDOUR::AudioRegion">
       <Changes>
         <length from="162800" to="159054"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="117814" interpolation-style="Exponential" state="Off">
-              <events>0 1
-162800 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="117815" interpolation-style="Exponential" state="Off">
-              <events>0 1
-159054 1.0000001000000001
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="45" type-name="SelectionMemento">
@@ -107,22 +75,6 @@
     <StatefulDiffCommand obj-id="117696" type-name="ARDOUR::AudioRegion">
       <Changes>
         <length from="159054" to="150174"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="117913" interpolation-style="Exponential" state="Off">
-              <events>0 1
-159054 1.0000001000000001
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="117914" interpolation-style="Exponential" state="Off">
-              <events>0 1
-150174 1.0000001944169934
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="45" type-name="SelectionMemento">
@@ -228,22 +180,6 @@
     <StatefulDiffCommand obj-id="118220" type-name="ARDOUR::AudioRegion">
       <Changes>
         <length from="911344" to="859950"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="118274" interpolation-style="Exponential" state="Off">
-              <events>0 1
-911344 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="118275" interpolation-style="Exponential" state="Off">
-              <events>0 1
-859950 1.0000001000000001
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="45" type-name="SelectionMemento">
@@ -269,22 +205,6 @@
     <StatefulDiffCommand obj-id="118220" type-name="ARDOUR::AudioRegion">
       <Changes>
         <length from="859950" to="840895"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="118309" interpolation-style="Exponential" state="Off">
-              <events>0 1
-859950 1.0000001000000001
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="118310" interpolation-style="Exponential" state="Off">
-              <events>0 1
-840895 1.0000001977841779
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="45" type-name="SelectionMemento">
@@ -331,22 +251,6 @@
         <length from="1359856" to="1163164"/>
         <position from="8450664" to="8647356"/>
         <beat from="511.00009070294783" to="522.89378684807264"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="118769" interpolation-style="Exponential" state="Off">
-              <events>0 1
-1359856 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="118770" interpolation-style="Exponential" state="Off">
-              <events>0 1.0000001000000001
-1163164 1
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="45" type-name="SelectionMemento">
@@ -375,22 +279,6 @@
         <length from="1372656" to="1175964"/>
         <position from="8450664" to="8647356"/>
         <beat from="511.00009070294783" to="522.89378684807264"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="118784" interpolation-style="Exponential" state="Off">
-              <events>0 1
-1372656 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="118785" interpolation-style="Exponential" state="Off">
-              <events>0 1.0000001000000001
-1175964 1
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="45" type-name="SelectionMemento">
@@ -444,22 +332,6 @@
         <length from="1163164" to="1144870"/>
         <position from="8647356" to="8665650"/>
         <beat from="522.89378684807264" to="524"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="118802" interpolation-style="Exponential" state="Off">
-              <events>0 1.0000001000000001
-1163164 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="118803" interpolation-style="Exponential" state="Off">
-              <events>0 1.0000001984272231
-1144870 1
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="45" type-name="SelectionMemento">
@@ -488,22 +360,6 @@
         <length from="1175964" to="1157670"/>
         <position from="8647356" to="8665650"/>
         <beat from="522.89378684807264" to="524"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="118817" interpolation-style="Exponential" state="Off">
-              <events>0 1.0000001000000001
-1175964 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="118818" interpolation-style="Exponential" state="Off">
-              <events>0 1.0000001984443427
-1157670 1
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="45" type-name="SelectionMemento">
