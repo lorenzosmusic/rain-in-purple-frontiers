@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="6000" name="rain in purple organ" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="192277" name-counter="1" event-counter="6396" vca-counter="1">
+<Session version="6000" name="rain in purple organ" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="207699" name-counter="1" event-counter="6406" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4.1" modified-with="Ardour 6.9.0~ds0-1build1"/>
   <MIDIPorts>
     <Port name="MIDI Clock out" direction="output"/>
@@ -696,7 +696,9 @@
     <Region name="bari sax-4" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1162224" position="10980900" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="192210" type="audio" first-edit="nothing" source-0="192197" master-source-0="192197" channels="1"/>
     <Region name="bari sax-5" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1181680" position="10980900" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="192248" type="audio" first-edit="nothing" source-0="192238" master-source-0="192238" channels="1"/>
   </Regions>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="192013" control="0" order="2"/>
+  </Selection>
   <Locations>
     <Location id="251" name="session" start="7061513" end="15032588" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1689222151"/>
     <Location id="5107" name="song start" start="7061513" end="7061513" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1689222151"/>
@@ -5331,7 +5333,7 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
       <Controllable name="rec-safe" id="159457" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="159455" flags="Toggle,RealTime" value="0"/>
     </Route>
-    <Route version="6000" id="192013" name="bari sax" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterInput" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="192195" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
+    <Route version="6000" id="192013" name="bari sax" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="192058" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
       <PresentationInfo order="16" flags="AudioTrack,OrderSet" color="3855399679"/>
       <Controllable name="solo" id="192021" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="192027" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -5362,6 +5364,8 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
         <AutomationList automation-id="phase" id="192024" interpolation-style="Discrete" state="Off"/>
         <AutomationList automation-id="monitor" id="192056" interpolation-style="Discrete" state="Off"/>
       </Automation>
+      <Comment>notes
+multiple tones to use</Comment>
       <Pannable>
         <Controllable name="pan-azimuth" id="192032" flags="" value="0.5"/>
         <Controllable name="pan-width" id="192036" flags="" value="0"/>
@@ -5376,7 +5380,6 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
           <AutomationList automation-id="pan-lfe" id="192039" interpolation-style="Linear" state="Off"/>
         </Automation>
       </Pannable>
-      <Processor id="192047" name="meter-bari sax" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="192051" name="recorder:bari sax" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
       <Processor id="192050" name="player:bari sax" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
       <Processor id="192044" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
@@ -5392,13 +5395,14 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
         </Automation>
         <Controllable name="gaincontrol" id="192017" flags="GainLike" value="1"/>
       </Processor>
+      <Processor id="192047" name="meter-bari sax" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="192048" name="bari sax" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="bari sax" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
       </Processor>
       <Slavable/>
       <Controllable name="monitor" id="192057" flags="RealTime" value="0" monitoring=""/>
       <Controllable name="rec-safe" id="192055" flags="Toggle,RealTime" value="0"/>
-      <Controllable name="rec-enable" id="192053" flags="Toggle,RealTime" value="1"/>
+      <Controllable name="rec-enable" id="192053" flags="Toggle,RealTime" value="0"/>
     </Route>
   </Routes>
   <Playlists>
@@ -19976,63 +19980,32 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
         </InverseFadeOut>
       </Region>
     </Playlist>
-    <Playlist id="192195" name="Take.7" type="audio" orig-track-id="192013" pgroup-id="2023-09-13 22.49.30" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="bari sax-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1162224" position="10980900" beat="664" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="192218" type="audio" first-edit="nothing" source-0="192197" master-source-0="192197" channels="1">
+    <Playlist id="192058" name="bari sax" type="audio" orig-track-id="192013" pgroup-id="2023-09-13 22.45.50" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="bari sax-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8018928" position="7061513" beat="427.00003023431589" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="192084" type="audio" first-edit="nothing" source-0="192060" master-source-0="192060" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
-          <AutomationList automation-id="fadein" id="192219" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadein" id="192085" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
           </AutomationList>
         </FadeIn>
         <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="192220" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadein" id="192086" interpolation-style="Curved" state="Off">
             <events>0 1
 64 1.0000000116860974e-07
 </events>
           </AutomationList>
         </InverseFadeIn>
         <FadeOut>
-          <AutomationList automation-id="fadeout" id="192221" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadeout" id="192087" interpolation-style="Curved" state="Off">
             <events>0 1
 64 1.0000000116860974e-07
 </events>
           </AutomationList>
         </FadeOut>
         <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="192222" interpolation-style="Curved" state="Off">
-            <events>0 1.0000000116860974e-07
-64 1
-</events>
-          </AutomationList>
-        </InverseFadeOut>
-      </Region>
-      <Region name="bari sax-5.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1181680" position="10980900" beat="664" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="192256" type="audio" first-edit="nothing" source-0="192238" master-source-0="192238" channels="1">
-        <Envelope default="yes"/>
-        <FadeIn>
-          <AutomationList automation-id="fadein" id="192257" interpolation-style="Curved" state="Off">
-            <events>0 1.0000000116860974e-07
-64 1
-</events>
-          </AutomationList>
-        </FadeIn>
-        <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="192258" interpolation-style="Curved" state="Off">
-            <events>0 1
-64 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </InverseFadeIn>
-        <FadeOut>
-          <AutomationList automation-id="fadeout" id="192259" interpolation-style="Curved" state="Off">
-            <events>0 1
-64 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </FadeOut>
-        <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="192260" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadeout" id="192088" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
@@ -21757,39 +21730,6 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
         </InverseFadeOut>
       </Region>
     </Playlist>
-    <Playlist id="192058" name="bari sax" type="audio" orig-track-id="192013" pgroup-id="2023-09-13 22.45.50" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="bari sax-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8018928" position="7061513" beat="427.00003023431589" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="192084" type="audio" first-edit="nothing" source-0="192060" master-source-0="192060" channels="1">
-        <Envelope default="yes"/>
-        <FadeIn>
-          <AutomationList automation-id="fadein" id="192085" interpolation-style="Curved" state="Off">
-            <events>0 1.0000000116860974e-07
-64 1
-</events>
-          </AutomationList>
-        </FadeIn>
-        <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="192086" interpolation-style="Curved" state="Off">
-            <events>0 1
-64 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </InverseFadeIn>
-        <FadeOut>
-          <AutomationList automation-id="fadeout" id="192087" interpolation-style="Curved" state="Off">
-            <events>0 1
-64 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </FadeOut>
-        <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="192088" interpolation-style="Curved" state="Off">
-            <events>0 1.0000000116860974e-07
-64 1
-</events>
-          </AutomationList>
-        </InverseFadeOut>
-      </Region>
-    </Playlist>
     <Playlist id="192106" name="Take.5" type="audio" orig-track-id="192013" pgroup-id="2023-09-13 22.46.06" shared-with-ids="" frozen="0" combine-ops="0">
       <Region name="bari sax-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="2479088" position="12568500" beat="760" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="192126" type="audio" first-edit="nothing" source-0="192108" master-source-0="192108" channels="1">
         <Envelope default="yes"/>
@@ -21849,6 +21789,70 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
         </FadeOut>
         <InverseFadeOut>
           <AutomationList automation-id="fadeout" id="192177" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="192195" name="Take.7" type="audio" orig-track-id="192013" pgroup-id="2023-09-13 22.49.30" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="bari sax-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1162224" position="10980900" beat="664" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="192218" type="audio" first-edit="nothing" source-0="192197" master-source-0="192197" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="192219" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="192220" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="192221" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="192222" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="bari sax-5.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1181680" position="10980900" beat="664" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="192256" type="audio" first-edit="nothing" source-0="192238" master-source-0="192238" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="192257" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="192258" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="192259" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="192260" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
@@ -22011,6 +22015,7 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
       <Window name="RPM-27968" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-113819" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-62926" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-192013" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-63030" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-158" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-9617" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -22018,7 +22023,7 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
       <Window name="P-54-290" visible="0" x-off="1028" y-off="0" x-size="847" y-size="404" custom-ui="1"/>
       <Window name="PM-54-290" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-159415-159821" visible="0" x-off="0" y-off="0" x-size="1144" y-size="591" custom-ui="1"/>
-      <Window name="P-159415-159509" visible="0" x-off="0" y-off="0" x-size="1037" y-size="708" custom-ui="1"/>
+      <Window name="P-159415-159509" visible="0" x-off="556" y-off="372" x-size="1037" y-size="708" custom-ui="1"/>
       <Window name="P-159415-159915" visible="0" x-off="0" y-off="5" x-size="970" y-size="462" custom-ui="1"/>
       <Window name="PM-159415-159821" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-159415-159509" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -22043,7 +22048,6 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
       <Window name="PM-9617-20438" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-12122-28241" visible="0" x-off="1183" y-off="0" x-size="382" y-size="400" custom-ui="1"/>
       <Window name="PM-12122-28241" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-192013" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="0"/>
