@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="6000" name="rain in purple organ" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="441085" name-counter="3" event-counter="10203" vca-counter="1">
+<Session version="6000" name="rain in purple organ" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="468521" name-counter="3" event-counter="10221" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4.1" modified-with="Ardour 6.9.0~ds0-1build1"/>
   <MIDIPorts>
     <Port name="MIDI Clock out" direction="output"/>
@@ -1251,7 +1251,7 @@
     <Region name="black pearl rain in purple beat.168" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="49666" length="16483" position="10038316" beat="607.00323507180644" sync-position="49666" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="75" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="440961" type="audio" first-edit="nothing" source-0="434" source-1="436" master-source-0="434" master-source-1="436" channels="2"/>
   </Regions>
   <Selection>
-    <StripableAutomationControl stripable="305006" control="0" order="7"/>
+    <StripableAutomationControl stripable="305057" control="0" order="1"/>
   </Selection>
   <Locations>
     <Location id="251" name="session" start="7061513" end="15048068" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1689222151"/>
@@ -8723,7 +8723,7 @@ multiple tones to use</Comment>
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state4">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state5">
           <Port symbol="isv" value="1"/>
           <Port symbol="asel" value="0"/>
           <Port symbol="enabled" value="1"/>
@@ -8805,7 +8805,7 @@ multiple tones to use</Comment>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="305067" flags="Toggle,RealTime" value="0"/>
-      <Controllable name="phase" id="305069" flags="Toggle" value="0" phase-invert="0"/>
+      <Controllable name="phase" id="305069" flags="Toggle" value="1" phase-invert="1"/>
       <Automation>
         <AutomationList automation-id="solo" id="305064" interpolation-style="Discrete" state="Off"/>
         <AutomationList automation-id="solo-iso" id="305070" interpolation-style="Discrete" state="Off"/>
@@ -36661,31 +36661,6 @@ vol was at -4.1</Comment>
         <Field name="date" enabled="0" value="D_None"/>
       </ExportFilename>
     </RangeExportProfile>
-    <ExportProfile>
-      <ExportTimespan format="Timecode">
-        <Range id="251"/>
-      </ExportTimespan>
-      <ExportChannelConfiguration split="0" channels="2">
-        <Channel number="1">
-          <Port name="Master/audio_out 1"/>
-        </Channel>
-        <Channel number="2">
-          <Port name="Master/audio_out 2"/>
-        </Channel>
-      </ExportChannelConfiguration>
-      <ExportFormat id="13765a92-0ab8-464e-ac1b-a5320572bf7d"/>
-      <ExportFilename>
-        <Folder relative="1" path="export"/>
-        <Field name="label" enabled="1" value="drums-with-hihats-on-one"/>
-        <Field name="session" enabled="1"/>
-        <Field name="snapshot" enabled="0"/>
-        <Field name="timespan" enabled="1"/>
-        <Field name="revision" enabled="0"/>
-        <Field name="time" enabled="0" value="T_None"/>
-        <Field name="date" enabled="1" value="D_BEShortY"/>
-      </ExportFilename>
-    </ExportProfile>
-    <ExportRevision revision="1"/>
     <SelectionExportProfile>
       <ExportTimespan format="Timecode">
         <Range id="selection"/>
@@ -36710,6 +36685,31 @@ vol was at -4.1</Comment>
         <Field name="date" enabled="0" value="D_None"/>
       </ExportFilename>
     </SelectionExportProfile>
+    <ExportRevision revision="1"/>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="251"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="0" channels="2">
+        <Channel number="1">
+          <Port name="Master/audio_out 1"/>
+        </Channel>
+        <Channel number="2">
+          <Port name="Master/audio_out 2"/>
+        </Channel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="13765a92-0ab8-464e-ac1b-a5320572bf7d"/>
+      <ExportFilename>
+        <Folder relative="1" path="export"/>
+        <Field name="label" enabled="1" value="triggered-snare"/>
+        <Field name="session" enabled="1"/>
+        <Field name="snapshot" enabled="0"/>
+        <Field name="timespan" enabled="1"/>
+        <Field name="revision" enabled="0"/>
+        <Field name="time" enabled="0" value="T_None"/>
+        <Field name="date" enabled="1" value="D_BEShortY"/>
+      </ExportFilename>
+    </ExportProfile>
     <UI>
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="session-options-editor" visible="0" x-off="0" y-off="335" x-size="750" y-size="368"/>
@@ -36736,6 +36736,7 @@ vol was at -4.1</Comment>
       <Window name="RPM-54" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-223528" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-306949" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-440394" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-448" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-770" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-1130" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -36778,10 +36779,18 @@ vol was at -4.1</Comment>
       <Window name="RPM-307339" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-54-290" visible="0" x-off="1028" y-off="0" x-size="847" y-size="404" custom-ui="1"/>
       <Window name="PM-54-290" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-305006-306699" visible="0" x-off="193" y-off="494" x-size="769" y-size="455" custom-ui="1"/>
+      <Window name="P-305006-328857" visible="0" x-off="0" y-off="0" x-size="1144" y-size="582" custom-ui="1"/>
+      <Window name="P-305006-441033" visible="0" x-off="898" y-off="0" x-size="1022" y-size="538" custom-ui="1"/>
+      <Window name="PM-305006-306699" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-305006-328857" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-305006-441033" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-223528-223573" visible="0" x-off="1376" y-off="97" x-size="544" y-size="711" custom-ui="1"/>
       <Window name="PM-223528-223573" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-306949-307309" visible="0" x-off="1347" y-off="814" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-306949-307309" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-440394-440725" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-440394-440725" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-770-330723" visible="0" x-off="0" y-off="0" x-size="769" y-size="455" custom-ui="1"/>
       <Window name="PM-770-330723" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-1130-330793" visible="0" x-off="0" y-off="0" x-size="769" y-size="455" custom-ui="1"/>
@@ -36832,10 +36841,6 @@ vol was at -4.1</Comment>
       <Window name="P-304955-328821" visible="0" x-off="569" y-off="590" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-304955-306779" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-304955-328821" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-305006-306699" visible="0" x-off="193" y-off="494" x-size="769" y-size="455" custom-ui="1"/>
-      <Window name="P-305006-328857" visible="0" x-off="0" y-off="0" x-size="1144" y-size="582" custom-ui="1"/>
-      <Window name="PM-305006-306699" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-305006-328857" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-306001-306869" visible="0" x-off="193" y-off="494" x-size="769" y-size="455" custom-ui="1"/>
       <Window name="PM-306001-306869" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-306256-383567" visible="0" x-off="474" y-off="0" x-size="1144" y-size="582" custom-ui="1"/>
@@ -36844,11 +36849,6 @@ vol was at -4.1</Comment>
       <Window name="PM-306307-383766" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-307339-307509" visible="0" x-off="193" y-off="494" x-size="769" y-size="455" custom-ui="1"/>
       <Window name="PM-307339-307509" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-440394" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-440394-440725" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-440394-440725" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-305006-441033" visible="0" x-off="0" y-off="523" x-size="1022" y-size="538" custom-ui="1"/>
-      <Window name="PM-305006-441033" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="0"/>
