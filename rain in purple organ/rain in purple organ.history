@@ -633,4 +633,24 @@
       <Changes/>
     </StatefulDiffCommand>
   </UndoTransaction>
+  <UndoTransaction tv-sec="1778385319" tv-usec="283659" name="set loop range from selection">
+    <MementoCommand obj-id="9605" type-name="ARDOUR::Location">
+      <Location id="9605" name="Loop" start="b1006080" end="b1128960" flags="IsAutoLoop" locked="0" timestamp="1689222252" cue="0"/>
+      <Location id="9605" name="Loop" start="b1466880" end="b1559040" flags="IsAutoLoop" locked="0" timestamp="1689222252" cue="0"/>
+    </MementoCommand>
+    <MementoCommand obj-id="49" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseRange" zoom="1568" left-frame="11357029" y-origin="1109">
+        <Selection>
+          <StripableView id="3617"/>
+          <TimelineRange start="b1466880" end="b1559040"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseRange" zoom="1568" left-frame="11357029" y-origin="1109">
+        <Selection>
+          <StripableView id="3617"/>
+          <TimelineRange start="b1466880" end="b1559040"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
 </UndoHistory>
