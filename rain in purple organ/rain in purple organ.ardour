@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7003" name="rain in purple organ" sample-rate="44100" session-range-is-free="0" id-counter="727277" rg-counter="90" name-counter="3" event-counter="10653" vca-counter="1">
+<Session version="7003" name="rain in purple organ" sample-rate="44100" session-range-is-free="0" id-counter="757520" rg-counter="98" name-counter="3" event-counter="10877" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4.1" modified-with="Ardour 8.4.0~ds1-2ubuntu8"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -1374,12 +1374,12 @@
         <Port name="Master/audio_out 1" type="audio" direction="Output">
           <Connection other="system:playback_1"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:playback_AUX0"/>
+          <ExtConnection for="JACK" other="Built-in Audio Analog Stereo:playback_FL"/>
         </Port>
         <Port name="Master/audio_out 2" type="audio" direction="Output">
           <Connection other="system:playback_2"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:playback_AUX1"/>
+          <ExtConnection for="JACK" other="Built-in Audio Analog Stereo:playback_FR"/>
         </Port>
         <Port name="Master/midi_out 1" type="midi" direction="Output"/>
       </IO>
@@ -4730,7 +4730,7 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
         <Port name="Bass/audio_in 1" type="audio" direction="Input">
           <Connection other="system:capture_1"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX0"/>
+          <ExtConnection for="JACK" other="Built-in Audio Analog Stereo:capture_FL"/>
         </Port>
       </IO>
       <IO name="Bass" id="145344" direction="Output" default-type="audio">
@@ -5485,7 +5485,7 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
         <Port name="Bass Pick/audio_in 1" type="audio" direction="Input">
           <Connection other="system:capture_1"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX0"/>
+          <ExtConnection for="JACK" other="Built-in Audio Analog Stereo:capture_FL"/>
         </Port>
       </IO>
       <IO name="Bass Pick" id="145557" direction="Output" default-type="audio">
@@ -8292,7 +8292,7 @@ multiple tones to use</Comment>
         <Port name="Guit DADGAD 2/audio_in 1" type="audio" direction="Input">
           <Connection other="system:capture_2"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX1"/>
+          <ExtConnection for="JACK" other="Built-in Audio Analog Stereo:capture_FR"/>
         </Port>
       </IO>
       <IO name="Guit DADGAD 2" id="284875" direction="Output" default-type="audio">
@@ -9166,7 +9166,7 @@ multiple tones to use</Comment>
         <Port name="rack drum?/audio_in 1" type="audio" direction="Input">
           <Connection other="system:capture_1"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX0"/>
+          <ExtConnection for="JACK" other="Built-in Audio Analog Stereo:capture_FL"/>
         </Port>
       </IO>
       <IO name="rack drum?" id="304933" direction="Output" default-type="audio">
@@ -9257,7 +9257,7 @@ multiple tones to use</Comment>
         <Port name="bass drum/audio_in 1" type="audio" direction="Input">
           <Connection other="system:capture_2"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX1"/>
+          <ExtConnection for="JACK" other="Built-in Audio Analog Stereo:capture_FR"/>
         </Port>
       </IO>
       <IO name="bass drum" id="304984" direction="Output" default-type="audio">
@@ -9512,9 +9512,7 @@ multiple tones to use</Comment>
       <Controllable name="solo-safe" id="305022" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="snare" id="305034" direction="Input" default-type="audio">
         <Port name="snare/audio_in 1" type="audio" direction="Input">
-          <Connection other="system:capture_3"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX2"/>
         </Port>
       </IO>
       <IO name="snare" id="305035" direction="Output" default-type="audio">
@@ -9896,7 +9894,7 @@ multiple tones to use</Comment>
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state14">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state15">
           <Port symbol="isv" value="1"/>
           <Port symbol="asel" value="0"/>
           <Port symbol="enabled" value="1"/>
@@ -9965,9 +9963,7 @@ multiple tones to use</Comment>
       <Controllable name="solo-safe" id="305073" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="hi hat" id="305085" direction="Input" default-type="audio">
         <Port name="hi hat/audio_in 1" type="audio" direction="Input">
-          <Connection other="system:capture_4"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX3"/>
         </Port>
       </IO>
       <IO name="hi hat" id="305086" direction="Output" default-type="audio">
@@ -10603,9 +10599,7 @@ vol was at -4.1</Comment>
       <Controllable name="solo-safe" id="305124" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="rack" id="305136" direction="Input" default-type="audio">
         <Port name="rack/audio_in 1" type="audio" direction="Input">
-          <Connection other="system:capture_5"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX4"/>
         </Port>
       </IO>
       <IO name="rack" id="305137" direction="Output" default-type="audio">
@@ -10694,9 +10688,7 @@ vol was at -4.1</Comment>
       <Controllable name="solo-safe" id="305175" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="floor" id="305187" direction="Input" default-type="audio">
         <Port name="floor/audio_in 1" type="audio" direction="Input">
-          <Connection other="system:capture_6"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX5"/>
         </Port>
       </IO>
       <IO name="floor" id="305188" direction="Output" default-type="audio">
@@ -10785,9 +10777,7 @@ vol was at -4.1</Comment>
       <Controllable name="solo-safe" id="305226" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="OH 1" id="305238" direction="Input" default-type="audio">
         <Port name="OH 1/audio_in 1" type="audio" direction="Input">
-          <Connection other="system:capture_7"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX6"/>
         </Port>
       </IO>
       <IO name="OH 1" id="305239" direction="Output" default-type="audio">
@@ -10876,9 +10866,7 @@ vol was at -4.1</Comment>
       <Controllable name="solo-safe" id="305277" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="OH 2" id="305289" direction="Input" default-type="audio">
         <Port name="OH 2/audio_in 1" type="audio" direction="Input">
-          <Connection other="system:capture_8"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX7"/>
         </Port>
       </IO>
       <IO name="OH 2" id="305290" direction="Output" default-type="audio">
@@ -10969,7 +10957,7 @@ vol was at -4.1</Comment>
         <Port name="percussion 1/audio_in 1" type="audio" direction="Input">
           <Connection other="system:capture_1"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX0"/>
+          <ExtConnection for="JACK" other="Built-in Audio Analog Stereo:capture_FL"/>
         </Port>
       </IO>
       <IO name="percussion 1" id="305979" direction="Output" default-type="audio">
@@ -11060,7 +11048,7 @@ vol was at -4.1</Comment>
         <Port name="percussion 2/audio_in 1" type="audio" direction="Input">
           <Connection other="system:capture_2"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX1"/>
+          <ExtConnection for="JACK" other="Built-in Audio Analog Stereo:capture_FR"/>
         </Port>
       </IO>
       <IO name="percussion 2" id="306030" direction="Output" default-type="audio">
@@ -11294,9 +11282,7 @@ vol was at -4.1</Comment>
       <Controllable name="solo-safe" id="306068" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="percussion 3" id="306080" direction="Input" default-type="audio">
         <Port name="percussion 3/audio_in 1" type="audio" direction="Input">
-          <Connection other="system:capture_3"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX2"/>
         </Port>
       </IO>
       <IO name="percussion 3" id="306081" direction="Output" default-type="audio">
@@ -11385,9 +11371,7 @@ vol was at -4.1</Comment>
       <Controllable name="solo-safe" id="306119" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="percussion 4" id="306131" direction="Input" default-type="audio">
         <Port name="percussion 4/audio_in 1" type="audio" direction="Input">
-          <Connection other="system:capture_4"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX3"/>
         </Port>
       </IO>
       <IO name="percussion 4" id="306132" direction="Output" default-type="audio">
@@ -11476,9 +11460,7 @@ vol was at -4.1</Comment>
       <Controllable name="solo-safe" id="306170" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="percussion 5" id="306182" direction="Input" default-type="audio">
         <Port name="percussion 5/audio_in 1" type="audio" direction="Input">
-          <Connection other="system:capture_5"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX4"/>
         </Port>
       </IO>
       <IO name="percussion 5" id="306183" direction="Output" default-type="audio">
@@ -11567,9 +11549,7 @@ vol was at -4.1</Comment>
       <Controllable name="solo-safe" id="306221" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="percussion 6" id="306233" direction="Input" default-type="audio">
         <Port name="percussion 6/audio_in 1" type="audio" direction="Input">
-          <Connection other="system:capture_6"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX5"/>
         </Port>
       </IO>
       <IO name="percussion 6" id="306234" direction="Output" default-type="audio">
@@ -11658,9 +11638,7 @@ vol was at -4.1</Comment>
       <Controllable name="solo-safe" id="306272" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="percussion 7" id="306284" direction="Input" default-type="audio">
         <Port name="percussion 7/audio_in 1" type="audio" direction="Input">
-          <Connection other="system:capture_7"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX6"/>
         </Port>
       </IO>
       <IO name="percussion 7" id="306285" direction="Output" default-type="audio">
@@ -11891,9 +11869,7 @@ vol was at -4.1</Comment>
       <Controllable name="solo-safe" id="306323" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="percussion 8" id="306335" direction="Input" default-type="audio">
         <Port name="percussion 8/audio_in 1" type="audio" direction="Input">
-          <Connection other="system:capture_8"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX7"/>
         </Port>
       </IO>
       <IO name="percussion 8" id="306336" direction="Output" default-type="audio">
@@ -12218,9 +12194,7 @@ vol was at -4.1</Comment>
       <Controllable name="solo-safe" id="307355" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="bells percussion" id="307367" direction="Input" default-type="audio">
         <Port name="bells percussion/audio_in 1" type="audio" direction="Input">
-          <Connection other="system:capture_13"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX12"/>
         </Port>
       </IO>
       <IO name="bells percussion" id="307368" direction="Output" default-type="audio">
@@ -38819,10 +38793,10 @@ a409600 1
           <Port name="Master/audio_out 2"/>
         </ExportChannel>
       </ExportChannelConfiguration>
-      <ExportFormat id="13765a92-0ab8-464e-ac1b-a5320572bf7d"/>
+      <ExportFormat id="e61c1d0f-95bd-48fb-b812-def99dbabe28"/>
       <ExportFilename>
         <Folder relative="1" path="export"/>
-        <Field name="label" enabled="1" value="mix-eq"/>
+        <Field name="label" enabled="1" value="vocal-stem"/>
         <Field name="session" enabled="1"/>
         <Field name="snapshot" enabled="0"/>
         <Field name="timespan" enabled="1"/>
@@ -38836,7 +38810,7 @@ a409600 1
       <Window name="session-options-editor" visible="0" x-off="0" y-off="262" x-size="849" y-size="462"/>
       <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="about" visible="0" x-off="0" y-off="0" x-size="424" y-size="611"/>
-      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="707" y-size="503"/>
+      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="688" y-size="503"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="audio-midi-setup" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
