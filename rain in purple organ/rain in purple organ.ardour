@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7003" name="rain in purple organ" sample-rate="44100" session-range-is-free="0" id-counter="757520" rg-counter="98" name-counter="3" event-counter="10877" vca-counter="1">
+<Session version="7003" name="rain in purple organ" sample-rate="44100" session-range-is-free="0" id-counter="787913" rg-counter="113" name-counter="3" event-counter="11005" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4.1" modified-with="Ardour 8.4.0~ds1-2ubuntu8"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -1257,9 +1257,7 @@
     <Region name="black pearl rain in purple beat.167" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a211558400" length="a106304000@a64138918400" sync-position="a211558400" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="75" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="440951" type="audio" first-edit="nothing" source-0="434" source-1="436" master-source-0="434" master-source-1="436" channels="2"/>
     <Region name="black pearl rain in purple beat.168" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a317862400" length="a105491200@a64245222400" sync-position="a317862400" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="75" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="440961" type="audio" first-edit="nothing" source-0="434" source-1="436" master-source-0="434" master-source-1="436" channels="2"/>
   </Regions>
-  <Selection>
-    <StripableAutomationControl stripable="241047" control="0" order="36"/>
-  </Selection>
+  <Selection/>
   <Locations>
     <Location id="251" name="session" start="b819840" end="b1747077" flags="IsSessionRange" locked="0" timestamp="1689222151" cue="0"/>
     <Location id="5107" name="song start" start="b819840" end="b819840" flags="IsMark" locked="0" timestamp="1689222151" cue="0"/>
@@ -1372,14 +1370,12 @@
       </IO>
       <IO name="Master" id="83" direction="Output" default-type="audio">
         <Port name="Master/audio_out 1" type="audio" direction="Output">
-          <Connection other="system:playback_1"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="Built-in Audio Analog Stereo:playback_FL"/>
+          <ExtConnection for="JACK" other="UMC1820 Multichannel:playback_AUX0"/>
         </Port>
         <Port name="Master/audio_out 2" type="audio" direction="Output">
-          <Connection other="system:playback_2"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="Built-in Audio Analog Stereo:playback_FR"/>
+          <ExtConnection for="JACK" other="UMC1820 Multichannel:playback_AUX1"/>
         </Port>
         <Port name="Master/midi_out 1" type="midi" direction="Output"/>
       </IO>
@@ -4731,6 +4727,7 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
           <Connection other="system:capture_1"/>
           <ExtConnection for="JACK"/>
           <ExtConnection for="JACK" other="Built-in Audio Analog Stereo:capture_FL"/>
+          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX0"/>
         </Port>
       </IO>
       <IO name="Bass" id="145344" direction="Output" default-type="audio">
@@ -5486,6 +5483,7 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
           <Connection other="system:capture_1"/>
           <ExtConnection for="JACK"/>
           <ExtConnection for="JACK" other="Built-in Audio Analog Stereo:capture_FL"/>
+          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX0"/>
         </Port>
       </IO>
       <IO name="Bass Pick" id="145557" direction="Output" default-type="audio">
@@ -8293,6 +8291,7 @@ multiple tones to use</Comment>
           <Connection other="system:capture_2"/>
           <ExtConnection for="JACK"/>
           <ExtConnection for="JACK" other="Built-in Audio Analog Stereo:capture_FR"/>
+          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX1"/>
         </Port>
       </IO>
       <IO name="Guit DADGAD 2" id="284875" direction="Output" default-type="audio">
@@ -9167,6 +9166,7 @@ multiple tones to use</Comment>
           <Connection other="system:capture_1"/>
           <ExtConnection for="JACK"/>
           <ExtConnection for="JACK" other="Built-in Audio Analog Stereo:capture_FL"/>
+          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX0"/>
         </Port>
       </IO>
       <IO name="rack drum?" id="304933" direction="Output" default-type="audio">
@@ -9258,6 +9258,7 @@ multiple tones to use</Comment>
           <Connection other="system:capture_2"/>
           <ExtConnection for="JACK"/>
           <ExtConnection for="JACK" other="Built-in Audio Analog Stereo:capture_FR"/>
+          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX1"/>
         </Port>
       </IO>
       <IO name="bass drum" id="304984" direction="Output" default-type="audio">
@@ -9894,7 +9895,7 @@ multiple tones to use</Comment>
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state15">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state16">
           <Port symbol="isv" value="1"/>
           <Port symbol="asel" value="0"/>
           <Port symbol="enabled" value="1"/>
@@ -10958,6 +10959,7 @@ vol was at -4.1</Comment>
           <Connection other="system:capture_1"/>
           <ExtConnection for="JACK"/>
           <ExtConnection for="JACK" other="Built-in Audio Analog Stereo:capture_FL"/>
+          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX0"/>
         </Port>
       </IO>
       <IO name="percussion 1" id="305979" direction="Output" default-type="audio">
@@ -11049,6 +11051,7 @@ vol was at -4.1</Comment>
           <Connection other="system:capture_2"/>
           <ExtConnection for="JACK"/>
           <ExtConnection for="JACK" other="Built-in Audio Analog Stereo:capture_FR"/>
+          <ExtConnection for="JACK" other="UMC1820 Multichannel:capture_AUX1"/>
         </Port>
       </IO>
       <IO name="percussion 2" id="306030" direction="Output" default-type="audio">
@@ -34073,11 +34076,11 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="percussion 7-1.29" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a26842387200" length="a297587200@a72036070400" sync-position="a26842387200" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="412005" type="audio" first-edit="nothing" source-0="306303" master-source-0="306303" channels="1">
+      <Region name="percussion 7-1.29" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a26874639025" length="a265335375@a72068322225" sync-position="a26842387200" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="412005" type="audio" first-edit="nothing" source-0="306303" master-source-0="306303" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="412011" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-            <events>a0 1.0000006278091671
-a297587200 1.000000448712101
+            <events>a0 1.0000007083965228
+a265331200 1.000000448712101
 </events>
           </AutomationList>
         </Envelope>
@@ -34594,11 +34597,11 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="percussion 8-1.29" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a26842387200" length="a297587200@a72036070400" sync-position="a26842387200" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="411867" type="audio" first-edit="nothing" source-0="306354" master-source-0="306354" channels="1">
+      <Region name="percussion 8-1.29" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a26874331825" length="a265642575@a72068015025" sync-position="a26842387200" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="411867" type="audio" first-edit="nothing" source-0="306354" master-source-0="306354" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="411873" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-            <events>a0 1.0000006278091671
-a297587200 1.000000448712101
+            <events>a0 1.0000007085814049
+a265638400 1.000000448712101
 </events>
           </AutomationList>
         </Envelope>
@@ -38796,7 +38799,7 @@ a409600 1
       <ExportFormat id="e61c1d0f-95bd-48fb-b812-def99dbabe28"/>
       <ExportFilename>
         <Folder relative="1" path="export"/>
-        <Field name="label" enabled="1" value="vocal-stem"/>
+        <Field name="label" enabled="1" value="mix"/>
         <Field name="session" enabled="1"/>
         <Field name="snapshot" enabled="0"/>
         <Field name="timespan" enabled="1"/>
