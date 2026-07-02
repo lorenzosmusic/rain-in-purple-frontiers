@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7003" name="rain in purple organ" sample-rate="44100" session-range-is-free="0" id-counter="848362" rg-counter="129" name-counter="3" event-counter="12189" vca-counter="1">
+<Session version="7003" name="rain in purple organ" sample-rate="44100" session-range-is-free="0" id-counter="878584" rg-counter="129" name-counter="3" event-counter="12189" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4.1" modified-with="Ardour 8.4.0~ds1-2ubuntu8"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -1258,7 +1258,7 @@
     <Region name="black pearl rain in purple beat.168" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a317862400" length="a105491200@a64245222400" sync-position="a317862400" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="75" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="440961" type="audio" first-edit="nothing" source-0="434" source-1="436" master-source-0="434" master-source-1="436" channels="2"/>
   </Regions>
   <Selection>
-    <StripableAutomationControl stripable="284871" control="0" order="1"/>
+    <StripableAutomationControl stripable="304904" control="0" order="10"/>
   </Selection>
   <Locations>
     <Location id="251" name="session" start="b819840" end="b1747077" flags="IsSessionRange" locked="0" timestamp="1689222151" cue="0"/>
@@ -9897,7 +9897,7 @@ multiple tones to use</Comment>
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state18">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state19">
           <Port symbol="isv" value="1"/>
           <Port symbol="asel" value="0"/>
           <Port symbol="enabled" value="1"/>
@@ -38855,7 +38855,7 @@ a409600 1
       <Window name="session-options-editor" visible="0" x-off="0" y-off="262" x-size="849" y-size="462"/>
       <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="about" visible="0" x-off="0" y-off="0" x-size="424" y-size="611"/>
-      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="707" y-size="503"/>
+      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="688" y-size="503"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="audio-midi-setup" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -38922,6 +38922,14 @@ a409600 1
       <Window name="RPM-12122" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-54-290" visible="0" x-off="1028" y-off="0" x-size="847" y-size="404" custom-ui="1"/>
       <Window name="PM-54-290" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-284871-285363" visible="0" x-off="0" y-off="0" x-size="1037" y-size="717" custom-ui="1"/>
+      <Window name="P-284871-285617" visible="0" x-off="0" y-off="0" x-size="1144" y-size="591" custom-ui="1"/>
+      <Window name="P-284871-285692" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-284871-285742" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-284871-285363" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-284871-285617" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-284871-285692" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-284871-285742" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-223528-223573" visible="0" x-off="1376" y-off="97" x-size="544" y-size="711" custom-ui="1"/>
       <Window name="PM-223528-223573" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-306949-307309" visible="0" x-off="1347" y-off="814" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -38932,14 +38940,6 @@ a409600 1
       <Window name="PM-770-330723" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-1130-330793" visible="0" x-off="0" y-off="0" x-size="769" y-size="455" custom-ui="1"/>
       <Window name="PM-1130-330793" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-284871-285363" visible="0" x-off="0" y-off="0" x-size="1037" y-size="717" custom-ui="1"/>
-      <Window name="P-284871-285617" visible="0" x-off="0" y-off="0" x-size="1144" y-size="591" custom-ui="1"/>
-      <Window name="P-284871-285692" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-284871-285742" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-284871-285363" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-284871-285617" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-284871-285692" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-284871-285742" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-159415-159509" visible="0" x-off="556" y-off="372" x-size="1037" y-size="708" custom-ui="1"/>
       <Window name="P-159415-159821" visible="0" x-off="0" y-off="0" x-size="1144" y-size="591" custom-ui="1"/>
       <Window name="P-159415-159915" visible="0" x-off="0" y-off="5" x-size="970" y-size="462" custom-ui="1"/>
@@ -40505,17 +40505,17 @@ a409600 1
             <Object id="control 305265" visible="0"/>
           </Object>
         </Object>
-        <Object id="rtav 304904" height="66" visible="1"/>
+        <Object id="rtav 304904" height="76" visible="1"/>
         <Object id="automation 304908" height="66" visible="0"/>
         <Object id="automation 304910" height="66" visible="0"/>
         <Object id="automation 304904 12/0/0" height="66" visible="0"/>
         <Object id="automation 304923" height="66" visible="0"/>
-        <Object id="rtav 304955" height="66" visible="1"/>
+        <Object id="rtav 304955" height="76" visible="1"/>
         <Object id="automation 304959" height="66" visible="0"/>
         <Object id="automation 304961" height="66" visible="0"/>
         <Object id="automation 304955 12/0/0" height="66" visible="0"/>
         <Object id="automation 304974" height="66" visible="0"/>
-        <Object id="rtav 305006" height="66" visible="1"/>
+        <Object id="rtav 305006" height="76" visible="1"/>
         <Object id="automation 305010" height="66" visible="0"/>
         <Object id="automation 305012" height="66" visible="0"/>
         <Object id="automation 305006 12/0/0" height="66" visible="0"/>
@@ -40525,22 +40525,22 @@ a409600 1
         <Object id="automation 305063" height="66" visible="0"/>
         <Object id="automation 305057 12/0/0" height="66" visible="0"/>
         <Object id="automation 305076" height="66" visible="0"/>
-        <Object id="rtav 305108" height="66" visible="1"/>
+        <Object id="rtav 305108" height="76" visible="1"/>
         <Object id="automation 305112" height="66" visible="0"/>
         <Object id="automation 305114" height="66" visible="0"/>
         <Object id="automation 305108 12/0/0" height="66" visible="0"/>
         <Object id="automation 305127" height="66" visible="0"/>
-        <Object id="rtav 305159" height="66" visible="1"/>
+        <Object id="rtav 305159" height="76" visible="1"/>
         <Object id="automation 305163" height="66" visible="0"/>
         <Object id="automation 305165" height="66" visible="0"/>
         <Object id="automation 305159 12/0/0" height="66" visible="0"/>
         <Object id="automation 305178" height="66" visible="0"/>
-        <Object id="rtav 305210" height="66" visible="1"/>
+        <Object id="rtav 305210" height="76" visible="1"/>
         <Object id="automation 305214" height="66" visible="0"/>
         <Object id="automation 305216" height="66" visible="0"/>
         <Object id="automation 305210 12/0/0" height="66" visible="0"/>
         <Object id="automation 305229" height="66" visible="0"/>
-        <Object id="rtav 305261" height="66" visible="1"/>
+        <Object id="rtav 305261" height="76" visible="1"/>
         <Object id="automation 305265" height="66" visible="0"/>
         <Object id="automation 305267" height="66" visible="0"/>
         <Object id="automation 305261 12/0/0" height="66" visible="0"/>
