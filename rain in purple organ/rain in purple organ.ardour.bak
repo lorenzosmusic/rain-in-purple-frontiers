@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7003" name="rain in purple organ" sample-rate="44100" session-range-is-free="0" id-counter="787913" rg-counter="113" name-counter="3" event-counter="11005" vca-counter="1">
+<Session version="7003" name="rain in purple organ" sample-rate="44100" session-range-is-free="0" id-counter="818136" rg-counter="123" name-counter="3" event-counter="11581" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4.1" modified-with="Ardour 8.4.0~ds1-2ubuntu8"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -9895,7 +9895,7 @@ multiple tones to use</Comment>
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state16">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state17">
           <Port symbol="isv" value="1"/>
           <Port symbol="asel" value="0"/>
           <Port symbol="enabled" value="1"/>
@@ -34076,7 +34076,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="percussion 7-1.29" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a26874639025" length="a265335375@a72068322225" sync-position="a26842387200" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="412005" type="audio" first-edit="nothing" source-0="306303" master-source-0="306303" channels="1">
+      <Region name="percussion 7-1.29" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a26874639025" length="a265335375@a72068322225" sync-position="a26874639025" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="412005" type="audio" first-edit="nothing" source-0="306303" master-source-0="306303" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="412011" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000007083965228
@@ -34597,7 +34597,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="percussion 8-1.29" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a26874331825" length="a265642575@a72068015025" sync-position="a26842387200" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="411867" type="audio" first-edit="nothing" source-0="306354" master-source-0="306354" channels="1">
+      <Region name="percussion 8-1.29" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a26874331825" length="a265642575@a72068015025" sync-position="a26874331825" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="411867" type="audio" first-edit="nothing" source-0="306354" master-source-0="306354" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="411873" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000007085814049
@@ -38813,7 +38813,7 @@ a409600 1
       <Window name="session-options-editor" visible="0" x-off="0" y-off="262" x-size="849" y-size="462"/>
       <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="about" visible="0" x-off="0" y-off="0" x-size="424" y-size="611"/>
-      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="688" y-size="503"/>
+      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="707" y-size="503"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="audio-midi-setup" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -38880,10 +38880,6 @@ a409600 1
       <Window name="RPM-12122" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-54-290" visible="0" x-off="1028" y-off="0" x-size="847" y-size="404" custom-ui="1"/>
       <Window name="PM-54-290" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-241047-666315" visible="0" x-off="825" y-off="0" x-size="769" y-size="459" custom-ui="1"/>
-      <Window name="P-241047-666736" visible="0" x-off="800" y-off="0" x-size="818" y-size="390" custom-ui="1"/>
-      <Window name="PM-241047-666315" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-241047-666736" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-223528-223573" visible="0" x-off="1376" y-off="97" x-size="544" y-size="711" custom-ui="1"/>
       <Window name="PM-223528-223573" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-306949-307309" visible="0" x-off="1347" y-off="814" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -38928,6 +38924,10 @@ a409600 1
       <Window name="P-240228-241040" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-240228-240956" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-240228-241040" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-241047-666315" visible="0" x-off="825" y-off="0" x-size="769" y-size="459" custom-ui="1"/>
+      <Window name="P-241047-666736" visible="0" x-off="800" y-off="0" x-size="818" y-size="390" custom-ui="1"/>
+      <Window name="PM-241047-666315" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-241047-666736" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-304955-306779" visible="0" x-off="0" y-off="0" x-size="769" y-size="455" custom-ui="1"/>
       <Window name="P-304955-328821" visible="0" x-off="569" y-off="590" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-304955-306779" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>

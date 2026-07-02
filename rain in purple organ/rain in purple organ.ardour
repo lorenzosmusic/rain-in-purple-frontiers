@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7003" name="rain in purple organ" sample-rate="44100" session-range-is-free="0" id-counter="818136" rg-counter="123" name-counter="3" event-counter="11581" vca-counter="1">
+<Session version="7003" name="rain in purple organ" sample-rate="44100" session-range-is-free="0" id-counter="848362" rg-counter="129" name-counter="3" event-counter="12189" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4.1" modified-with="Ardour 8.4.0~ds1-2ubuntu8"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -1257,7 +1257,9 @@
     <Region name="black pearl rain in purple beat.167" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a211558400" length="a106304000@a64138918400" sync-position="a211558400" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="75" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="440951" type="audio" first-edit="nothing" source-0="434" source-1="436" master-source-0="434" master-source-1="436" channels="2"/>
     <Region name="black pearl rain in purple beat.168" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a317862400" length="a105491200@a64245222400" sync-position="a317862400" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="75" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="440961" type="audio" first-edit="nothing" source-0="434" source-1="436" master-source-0="434" master-source-1="436" channels="2"/>
   </Regions>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="284871" control="0" order="1"/>
+  </Selection>
   <Locations>
     <Location id="251" name="session" start="b819840" end="b1747077" flags="IsSessionRange" locked="0" timestamp="1689222151" cue="0"/>
     <Location id="5107" name="song start" start="b819840" end="b819840" flags="IsMark" locked="0" timestamp="1689222151" cue="0"/>
@@ -9895,7 +9897,7 @@ multiple tones to use</Comment>
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state17">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state18">
           <Port symbol="isv" value="1"/>
           <Port symbol="asel" value="0"/>
           <Port symbol="enabled" value="1"/>
@@ -38759,6 +38761,30 @@ a409600 1
         <Field name="date" enabled="0" value="D_None"/>
       </ExportFilename>
     </SelectionExportProfile>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="251" realtime="0"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="0" channels="2">
+        <ExportChannel type="PortExportChannel" number="1">
+          <Port name="Master/audio_out 1"/>
+        </ExportChannel>
+        <ExportChannel type="PortExportChannel" number="2">
+          <Port name="Master/audio_out 2"/>
+        </ExportChannel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="e61c1d0f-95bd-48fb-b812-def99dbabe28"/>
+      <ExportFilename>
+        <Folder relative="1" path="export"/>
+        <Field name="label" enabled="1" value="mix"/>
+        <Field name="session" enabled="1"/>
+        <Field name="snapshot" enabled="0"/>
+        <Field name="timespan" enabled="1"/>
+        <Field name="revision" enabled="1"/>
+        <Field name="time" enabled="0" value="T_None"/>
+        <Field name="date" enabled="1" value="D_BEShortY"/>
+      </ExportFilename>
+    </ExportProfile>
     <RangeExportProfile>
       <ExportTimespan format="Timecode">
         <Range id="251" realtime="0"/>
@@ -38784,30 +38810,46 @@ a409600 1
       </ExportFilename>
     </RangeExportProfile>
     <ExportRevision revision="1"/>
-    <ExportProfile>
+    <StemExportProfile>
       <ExportTimespan format="Timecode">
         <Range id="251" realtime="0"/>
       </ExportTimespan>
       <ExportChannelConfiguration split="0" channels="2">
         <ExportChannel type="PortExportChannel" number="1">
-          <Port name="Master/audio_out 1"/>
+          <Port name="Guit DADGAD 2/audio_out 1"/>
         </ExportChannel>
         <ExportChannel type="PortExportChannel" number="2">
-          <Port name="Master/audio_out 2"/>
+          <Port name="Guit DADGAD 2/audio_out 2"/>
         </ExportChannel>
       </ExportChannelConfiguration>
-      <ExportFormat id="e61c1d0f-95bd-48fb-b812-def99dbabe28"/>
+      <ExportChannelConfiguration split="0" channels="2">
+        <ExportChannel type="PortExportChannel" number="1">
+          <Port name="Guit DADGAD 1/audio_out 1"/>
+        </ExportChannel>
+        <ExportChannel type="PortExportChannel" number="2">
+          <Port name="Guit DADGAD 1/audio_out 2"/>
+        </ExportChannel>
+      </ExportChannelConfiguration>
+      <ExportChannelConfiguration split="0" channels="2">
+        <ExportChannel type="PortExportChannel" number="1">
+          <Port name="keys guit?/audio_out 1"/>
+        </ExportChannel>
+        <ExportChannel type="PortExportChannel" number="2">
+          <Port name="keys guit?/audio_out 2"/>
+        </ExportChannel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="dd4f6f30-f054-4e0a-8d91-67eed5d79153"/>
       <ExportFilename>
         <Folder relative="1" path="export"/>
-        <Field name="label" enabled="1" value="mix"/>
-        <Field name="session" enabled="1"/>
+        <Field name="label" enabled="0"/>
+        <Field name="session" enabled="0"/>
         <Field name="snapshot" enabled="0"/>
         <Field name="timespan" enabled="1"/>
-        <Field name="revision" enabled="1"/>
+        <Field name="revision" enabled="0"/>
         <Field name="time" enabled="0" value="T_None"/>
-        <Field name="date" enabled="1" value="D_BEShortY"/>
+        <Field name="date" enabled="0" value="D_None"/>
       </ExportFilename>
-    </ExportProfile>
+    </StemExportProfile>
     <UI>
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="session-options-editor" visible="0" x-off="0" y-off="262" x-size="849" y-size="462"/>
