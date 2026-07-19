@@ -1,40 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1699941901" tv-usec="633559" name="copy objects"/>
-  <UndoTransaction tv-sec="1699941923" tv-usec="805357" name="paste">
-    <StatefulDiffCommand obj-id="490" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="411355"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1699941931" tv-usec="49613" name="paste">
-    <StatefulDiffCommand obj-id="409114" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="411372"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1699941936" tv-usec="44638" name="region drag">
-    <StatefulDiffCommand obj-id="409142" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="411389"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="409114" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions>
-          <Remove id="411372"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1699941946" tv-usec="754733" name="paste">
     <StatefulDiffCommand obj-id="409114" type-name="ARDOUR::AudioPlaylist">
       <Changes>
@@ -616,6 +581,150 @@
           <Regions>
             <Region id="411867"/>
           </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1784431429" tv-usec="595002" name="move marker">
+    <MementoCommand obj-id="57" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="251" name="session" start="b819840" end="b1747077" flags="IsSessionRange" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="5107" name="song start" start="b819840" end="b819840" flags="IsMark" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="5114" name="song start-range" start="b819840" end="b1347840" flags="IsRangeMarker" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="9605" name="Loop" start="b1466880" end="b1559040" flags="IsAutoLoop" locked="0" timestamp="1689222252" cue="0"/>
+        <Location id="145438" name="click" start="b806400" end="b806400" flags="IsMark" locked="0" timestamp="1694319214" cue="0"/>
+        <Location id="409852" name="mark1" start="b1713240" end="b1713240" flags="IsMark" locked="0" timestamp="1699941781" cue="0"/>
+        <Location id="409856" name="mark2" start="b1466880" end="b1466880" flags="IsMark" locked="0" timestamp="1699941789" cue="0"/>
+        <Location id="409860" name="mark3" start="b1528320" end="b1528320" flags="IsMark" locked="0" timestamp="1699941795" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="251" name="session" start="b819840" end="b1747077" flags="IsSessionRange" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="5107" name="song start" start="b819840" end="b819840" flags="IsMark" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="5114" name="song start-range" start="b819840" end="b1347840" flags="IsRangeMarker" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="9605" name="Loop" start="b1466880" end="b1559040" flags="IsAutoLoop" locked="0" timestamp="1689222252" cue="0"/>
+        <Location id="145438" name="click" start="b806400" end="b806400" flags="IsMark" locked="0" timestamp="1694319214" cue="0"/>
+        <Location id="409852" name="mark1" start="b1713240" end="b1713240" flags="IsMark" locked="0" timestamp="1699941781" cue="0"/>
+        <Location id="409856" name="mark2" start="b1466880" end="b1466880" flags="IsMark" locked="0" timestamp="1699941789" cue="0"/>
+        <Location id="409860" name="mark3" start="b1528320" end="b1528320" flags="IsMark" locked="0" timestamp="1699941795" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="49" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="98" left-frame="6922929" y-origin="667">
+        <Selection>
+          <Marker id="145438" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="98" left-frame="6922929" y-origin="667">
+        <Selection>
+          <Marker id="145438" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1784431434" tv-usec="443839" name="move marker">
+    <MementoCommand obj-id="57" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="251" name="session" start="b819840" end="b1747077" flags="IsSessionRange" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="5107" name="song start" start="b819840" end="b819840" flags="IsMark" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="5114" name="song start-range" start="b819840" end="b1347840" flags="IsRangeMarker" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="9605" name="Loop" start="b1466880" end="b1559040" flags="IsAutoLoop" locked="0" timestamp="1689222252" cue="0"/>
+        <Location id="145438" name="click" start="b806400" end="b806400" flags="IsMark" locked="0" timestamp="1694319214" cue="0"/>
+        <Location id="409852" name="mark1" start="b1713240" end="b1713240" flags="IsMark" locked="0" timestamp="1699941781" cue="0"/>
+        <Location id="409856" name="mark2" start="b1466880" end="b1466880" flags="IsMark" locked="0" timestamp="1699941789" cue="0"/>
+        <Location id="409860" name="mark3" start="b1528320" end="b1528320" flags="IsMark" locked="0" timestamp="1699941795" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="251" name="session" start="b819840" end="b1747077" flags="IsSessionRange" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="5107" name="song start" start="b820421" end="b820421" flags="IsMark" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="5114" name="song start-range" start="b819840" end="b1347840" flags="IsRangeMarker" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="9605" name="Loop" start="b1466880" end="b1559040" flags="IsAutoLoop" locked="0" timestamp="1689222252" cue="0"/>
+        <Location id="145438" name="click" start="b806400" end="b806400" flags="IsMark" locked="0" timestamp="1694319214" cue="0"/>
+        <Location id="409852" name="mark1" start="b1713240" end="b1713240" flags="IsMark" locked="0" timestamp="1699941781" cue="0"/>
+        <Location id="409856" name="mark2" start="b1466880" end="b1466880" flags="IsMark" locked="0" timestamp="1699941789" cue="0"/>
+        <Location id="409860" name="mark3" start="b1528320" end="b1528320" flags="IsMark" locked="0" timestamp="1699941795" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="49" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="98" left-frame="7005183" y-origin="667">
+        <Selection>
+          <Marker id="5107" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="98" left-frame="7005183" y-origin="667">
+        <Selection>
+          <Marker id="5107" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1784431438" tv-usec="326058" name="move marker">
+    <MementoCommand obj-id="57" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="251" name="session" start="b819840" end="b1747077" flags="IsSessionRange" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="5107" name="song start" start="b820421" end="b820421" flags="IsMark" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="5114" name="song start-range" start="b819840" end="b1347840" flags="IsRangeMarker" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="9605" name="Loop" start="b1466880" end="b1559040" flags="IsAutoLoop" locked="0" timestamp="1689222252" cue="0"/>
+        <Location id="145438" name="click" start="b806400" end="b806400" flags="IsMark" locked="0" timestamp="1694319214" cue="0"/>
+        <Location id="409852" name="mark1" start="b1713240" end="b1713240" flags="IsMark" locked="0" timestamp="1699941781" cue="0"/>
+        <Location id="409856" name="mark2" start="b1466880" end="b1466880" flags="IsMark" locked="0" timestamp="1699941789" cue="0"/>
+        <Location id="409860" name="mark3" start="b1528320" end="b1528320" flags="IsMark" locked="0" timestamp="1699941795" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="251" name="session" start="b821760" end="b1747077" flags="IsSessionRange" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="5107" name="song start" start="b820421" end="b820421" flags="IsMark" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="5114" name="song start-range" start="b819840" end="b1347840" flags="IsRangeMarker" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="9605" name="Loop" start="b1466880" end="b1559040" flags="IsAutoLoop" locked="0" timestamp="1689222252" cue="0"/>
+        <Location id="145438" name="click" start="b806400" end="b806400" flags="IsMark" locked="0" timestamp="1694319214" cue="0"/>
+        <Location id="409852" name="mark1" start="b1713240" end="b1713240" flags="IsMark" locked="0" timestamp="1699941781" cue="0"/>
+        <Location id="409856" name="mark2" start="b1466880" end="b1466880" flags="IsMark" locked="0" timestamp="1699941789" cue="0"/>
+        <Location id="409860" name="mark3" start="b1528320" end="b1528320" flags="IsMark" locked="0" timestamp="1699941795" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="49" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="98" left-frame="7005183" y-origin="667">
+        <Selection>
+          <Marker id="251" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="98" left-frame="7005183" y-origin="667">
+        <Selection>
+          <Marker id="251" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1784431439" tv-usec="877725" name="move marker">
+    <MementoCommand obj-id="57" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="251" name="session" start="b821760" end="b1747077" flags="IsSessionRange" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="5107" name="song start" start="b820421" end="b820421" flags="IsMark" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="5114" name="song start-range" start="b819840" end="b1347840" flags="IsRangeMarker" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="9605" name="Loop" start="b1466880" end="b1559040" flags="IsAutoLoop" locked="0" timestamp="1689222252" cue="0"/>
+        <Location id="145438" name="click" start="b806400" end="b806400" flags="IsMark" locked="0" timestamp="1694319214" cue="0"/>
+        <Location id="409852" name="mark1" start="b1713240" end="b1713240" flags="IsMark" locked="0" timestamp="1699941781" cue="0"/>
+        <Location id="409856" name="mark2" start="b1466880" end="b1466880" flags="IsMark" locked="0" timestamp="1699941789" cue="0"/>
+        <Location id="409860" name="mark3" start="b1528320" end="b1528320" flags="IsMark" locked="0" timestamp="1699941795" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="251" name="session" start="b821760" end="b1747077" flags="IsSessionRange" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="5107" name="song start" start="b819840" end="b819840" flags="IsMark" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="5114" name="song start-range" start="b819840" end="b1347840" flags="IsRangeMarker" locked="0" timestamp="1689222151" cue="0"/>
+        <Location id="9605" name="Loop" start="b1466880" end="b1559040" flags="IsAutoLoop" locked="0" timestamp="1689222252" cue="0"/>
+        <Location id="145438" name="click" start="b806400" end="b806400" flags="IsMark" locked="0" timestamp="1694319214" cue="0"/>
+        <Location id="409852" name="mark1" start="b1713240" end="b1713240" flags="IsMark" locked="0" timestamp="1699941781" cue="0"/>
+        <Location id="409856" name="mark2" start="b1466880" end="b1466880" flags="IsMark" locked="0" timestamp="1699941789" cue="0"/>
+        <Location id="409860" name="mark3" start="b1528320" end="b1528320" flags="IsMark" locked="0" timestamp="1699941795" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="49" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="98" left-frame="7005183" y-origin="667">
+        <Selection>
+          <Marker id="5107" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="98" left-frame="7005183" y-origin="667">
+        <Selection>
+          <Marker id="5107" start="1"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7003" name="rain in purple organ" sample-rate="44100" session-range-is-free="0" id-counter="878584" rg-counter="129" name-counter="3" event-counter="12189" vca-counter="1">
+<Session version="7003" name="rain in purple organ" sample-rate="44100" session-range-is-free="0" id-counter="939060" rg-counter="181" name-counter="3" event-counter="15549" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4.1" modified-with="Ardour 8.4.0~ds1-2ubuntu8"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -1258,10 +1258,10 @@
     <Region name="black pearl rain in purple beat.168" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a317862400" length="a105491200@a64245222400" sync-position="a317862400" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="75" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="440961" type="audio" first-edit="nothing" source-0="434" source-1="436" master-source-0="434" master-source-1="436" channels="2"/>
   </Regions>
   <Selection>
-    <StripableAutomationControl stripable="304904" control="0" order="10"/>
+    <StripableAutomationControl stripable="27968" control="0" order="1"/>
   </Selection>
   <Locations>
-    <Location id="251" name="session" start="b819840" end="b1747077" flags="IsSessionRange" locked="0" timestamp="1689222151" cue="0"/>
+    <Location id="251" name="session" start="b821760" end="b1747077" flags="IsSessionRange" locked="0" timestamp="1689222151" cue="0"/>
     <Location id="5107" name="song start" start="b819840" end="b819840" flags="IsMark" locked="0" timestamp="1689222151" cue="0"/>
     <Location id="5114" name="song start-range" start="b819840" end="b1347840" flags="IsRangeMarker" locked="0" timestamp="1689222151" cue="0"/>
     <Location id="9605" name="Loop" start="b1466880" end="b1559040" flags="IsAutoLoop" locked="0" timestamp="1689222252" cue="0"/>
@@ -1373,11 +1373,11 @@
       <IO name="Master" id="83" direction="Output" default-type="audio">
         <Port name="Master/audio_out 1" type="audio" direction="Output">
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:playback_AUX0"/>
+          <ExtConnection for="JACK" other="Built-in Audio Analog Stereo:playback_FL"/>
         </Port>
         <Port name="Master/audio_out 2" type="audio" direction="Output">
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="UMC1820 Multichannel:playback_AUX1"/>
+          <ExtConnection for="JACK" other="Built-in Audio Analog Stereo:playback_FR"/>
         </Port>
         <Port name="Master/midi_out 1" type="midi" direction="Output"/>
       </IO>
@@ -2221,7 +2221,7 @@
       <Controllable name="rec-enable" id="1166" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7003" id="1251" name="double Purple organ-1.10" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="1293" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
-      <PresentationInfo order="12" flags="AudioTrack,OrderSet" color="1922164223"/>
+      <PresentationInfo order="7" flags="AudioTrack,OrderSet" color="1922164223"/>
       <Controllable name="solo" id="1259" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="1265" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1267" flags="Toggle" value="0" solo-safe="0"/>
@@ -2265,7 +2265,7 @@
       </Pannable>
       <Processor id="1292" name="Purple organ-1.10" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
       <Processor id="1292" name="Purple organ-1.10" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
-      <Processor id="628026" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="9">
+      <Processor id="628026" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="4">
         <Triggers>
           <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0" start="a0"/>
           <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0" start="a0"/>
@@ -3325,19 +3325,19 @@
       <Controllable name="rec-safe" id="12164" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="12162" flags="Toggle,RealTime" value="0"/>
     </Route>
-    <Route version="7003" id="27968" name="keys guit?" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="28013" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
+    <Route version="7003" id="27968" name="squareLD synth" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="28013" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
       <PresentationInfo order="16" flags="AudioTrack,OrderSet" color="2984604415"/>
       <Controllable name="solo" id="27976" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="27982" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="27984" flags="Toggle" value="0" solo-safe="0"/>
-      <IO name="keys guit?" id="27996" direction="Input" default-type="audio">
-        <Port name="keys guit?/audio_in 1" type="audio" direction="Input"/>
+      <IO name="squareLD synth" id="27996" direction="Input" default-type="audio">
+        <Port name="squareLD synth/audio_in 1" type="audio" direction="Input"/>
       </IO>
-      <IO name="keys guit?" id="27997" direction="Output" default-type="audio">
-        <Port name="keys guit?/audio_out 1" type="audio" direction="Output">
+      <IO name="squareLD synth" id="27997" direction="Output" default-type="audio">
+        <Port name="squareLD synth/audio_out 1" type="audio" direction="Output">
           <Connection other="Master/audio_in 1"/>
         </Port>
-        <Port name="keys guit?/audio_out 2" type="audio" direction="Output">
+        <Port name="squareLD synth/audio_out 2" type="audio" direction="Output">
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
@@ -3371,8 +3371,8 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
           <AutomationList automation-id="pan-lfe" id="27994" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
         </Automation>
       </Pannable>
-      <Processor id="28006" name="recorder:keys guit?" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
-      <Processor id="28005" name="player:keys guit?" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="28006" name="recorder:squareLD synth" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="28005" name="player:squareLD synth" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
       <Processor id="628764" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="13">
         <Triggers>
           <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0" start="a0"/>
@@ -3407,7 +3407,7 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
         <Controllable name="gaincontrol" id="27972" flags="GainLike" value="0.17858874797821045"/>
       </Processor>
       <Processor id="28002" name="meter-keys guit?" active="1" user-latency="0" use-user-latency="0" type="meter"/>
-      <Processor id="28003" name="keys guit?" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="keys guit?" type="main-outs" role="Main">
+      <Processor id="28003" name="squareLD synth" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="squareLD synth" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
       </Processor>
       <Slavable/>
@@ -3712,7 +3712,7 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
       <Controllable name="rec-enable" id="63070" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7003" id="88838" name="melody idea" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="88883" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
-      <PresentationInfo order="11" flags="AudioTrack,OrderSet" color="3672470271"/>
+      <PresentationInfo order="12" flags="AudioTrack,OrderSet" color="3672470271"/>
       <Controllable name="solo" id="88846" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="88852" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="88854" flags="Toggle" value="0" solo-safe="0"/>
@@ -3756,7 +3756,7 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
       </Pannable>
       <Processor id="88876" name="recorder:melody idea" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
       <Processor id="88875" name="player:melody idea" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
-      <Processor id="629021" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="8">
+      <Processor id="629021" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="9">
         <Triggers>
           <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0" start="a0"/>
           <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0" start="a0"/>
@@ -4720,7 +4720,7 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
       <Controllable name="rec-enable" id="118354" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7003" id="145315" name="Bass" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="145360" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
-      <PresentationInfo order="9" flags="AudioTrack,OrderSet" color="1920656895"/>
+      <PresentationInfo order="10" flags="AudioTrack,OrderSet" color="1920656895"/>
       <Controllable name="solo" id="145323" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="145329" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="145331" flags="Toggle" value="0" solo-safe="0"/>
@@ -4769,7 +4769,7 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
       </Pannable>
       <Processor id="145353" name="recorder:Bass" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
       <Processor id="145352" name="player:Bass" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
-      <Processor id="629658" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="6">
+      <Processor id="629658" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="7">
         <Triggers>
           <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0" start="a0"/>
           <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0" start="a0"/>
@@ -5476,7 +5476,7 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
       <Controllable name="rec-enable" id="145355" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7003" id="145553" name="Bass Pick" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="145493" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
-      <PresentationInfo order="10" flags="AudioTrack,OrderSet" color="1920656895"/>
+      <PresentationInfo order="11" flags="AudioTrack,OrderSet" color="1920656895"/>
       <Controllable name="solo" id="145516" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="145715" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="145716" flags="Toggle" value="0" solo-safe="0"/>
@@ -5525,7 +5525,7 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
       </Pannable>
       <Processor id="145569" name="recorder:Bass Pick" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
       <Processor id="145572" name="player:Bass Pick" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
-      <Processor id="630137" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="7">
+      <Processor id="630137" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="8">
         <Triggers>
           <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0" start="a0"/>
           <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0" start="a0"/>
@@ -6232,7 +6232,7 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
       <Controllable name="rec-enable" id="145731" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7003" id="159415" name="Guit DADGAD 1" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="159460" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
-      <PresentationInfo order="8" flags="AudioTrack,OrderSet" color="2951064831"/>
+      <PresentationInfo order="9" flags="AudioTrack,OrderSet" color="2951064831"/>
       <Controllable name="solo" id="159423" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="159429" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="159431" flags="Toggle" value="0" solo-safe="0"/>
@@ -6276,7 +6276,7 @@ notes FFE, EFFE, Dmin, EED, DEED, Dmin</Comment>
       </Pannable>
       <Processor id="159453" name="recorder:Guit DADGAD 1" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
       <Processor id="159452" name="player:Guit DADGAD 1" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
-      <Processor id="630616" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="5">
+      <Processor id="630616" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="6">
         <Triggers>
           <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0" start="a0"/>
           <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0" start="a0"/>
@@ -8284,7 +8284,7 @@ multiple tones to use</Comment>
       <Controllable name="rec-enable" id="241087" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7003" id="284871" name="Guit DADGAD 2" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="284603" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
-      <PresentationInfo order="7" flags="AudioTrack,OrderSet" color="2951064831"/>
+      <PresentationInfo order="8" flags="AudioTrack,OrderSet" color="2951064831"/>
       <Controllable name="solo" id="284834" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="285757" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="285758" flags="Toggle" value="0" solo-safe="0"/>
@@ -8333,7 +8333,7 @@ multiple tones to use</Comment>
       </Pannable>
       <Processor id="284887" name="recorder:Guit DADGAD 2" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
       <Processor id="284890" name="player:Guit DADGAD 2" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
-      <Processor id="631795" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="4">
+      <Processor id="631795" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="5">
         <Triggers>
           <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0" start="a0"/>
           <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0" start="a0"/>
@@ -9897,7 +9897,7 @@ multiple tones to use</Comment>
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state19">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state21">
           <Port symbol="isv" value="1"/>
           <Port symbol="asel" value="0"/>
           <Port symbol="enabled" value="1"/>
@@ -38761,30 +38761,6 @@ a409600 1
         <Field name="date" enabled="0" value="D_None"/>
       </ExportFilename>
     </SelectionExportProfile>
-    <ExportProfile>
-      <ExportTimespan format="Timecode">
-        <Range id="251" realtime="0"/>
-      </ExportTimespan>
-      <ExportChannelConfiguration split="0" channels="2">
-        <ExportChannel type="PortExportChannel" number="1">
-          <Port name="Master/audio_out 1"/>
-        </ExportChannel>
-        <ExportChannel type="PortExportChannel" number="2">
-          <Port name="Master/audio_out 2"/>
-        </ExportChannel>
-      </ExportChannelConfiguration>
-      <ExportFormat id="e61c1d0f-95bd-48fb-b812-def99dbabe28"/>
-      <ExportFilename>
-        <Folder relative="1" path="export"/>
-        <Field name="label" enabled="1" value="mix"/>
-        <Field name="session" enabled="1"/>
-        <Field name="snapshot" enabled="0"/>
-        <Field name="timespan" enabled="1"/>
-        <Field name="revision" enabled="1"/>
-        <Field name="time" enabled="0" value="T_None"/>
-        <Field name="date" enabled="1" value="D_BEShortY"/>
-      </ExportFilename>
-    </ExportProfile>
     <RangeExportProfile>
       <ExportTimespan format="Timecode">
         <Range id="251" realtime="0"/>
@@ -38809,7 +38785,6 @@ a409600 1
         <Field name="date" enabled="0" value="D_None"/>
       </ExportFilename>
     </RangeExportProfile>
-    <ExportRevision revision="1"/>
     <StemExportProfile>
       <ExportTimespan format="Timecode">
         <Range id="251" realtime="0"/>
@@ -38850,12 +38825,37 @@ a409600 1
         <Field name="date" enabled="0" value="D_None"/>
       </ExportFilename>
     </StemExportProfile>
+    <ExportRevision revision="1"/>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="251" realtime="0"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="0" channels="2">
+        <ExportChannel type="PortExportChannel" number="1">
+          <Port name="Master/audio_out 1"/>
+        </ExportChannel>
+        <ExportChannel type="PortExportChannel" number="2">
+          <Port name="Master/audio_out 2"/>
+        </ExportChannel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="e61c1d0f-95bd-48fb-b812-def99dbabe28"/>
+      <ExportFilename>
+        <Folder relative="1" path="export"/>
+        <Field name="label" enabled="1" value="rack-tom-hits"/>
+        <Field name="session" enabled="1"/>
+        <Field name="snapshot" enabled="0"/>
+        <Field name="timespan" enabled="0"/>
+        <Field name="revision" enabled="0"/>
+        <Field name="time" enabled="0" value="T_None"/>
+        <Field name="date" enabled="0" value="D_None"/>
+      </ExportFilename>
+    </ExportProfile>
     <UI>
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="session-options-editor" visible="0" x-off="0" y-off="262" x-size="849" y-size="462"/>
       <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="about" visible="0" x-off="0" y-off="0" x-size="424" y-size="611"/>
-      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="688" y-size="503"/>
+      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="707" y-size="503"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="audio-midi-setup" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -38922,14 +38922,6 @@ a409600 1
       <Window name="RPM-12122" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-54-290" visible="0" x-off="1028" y-off="0" x-size="847" y-size="404" custom-ui="1"/>
       <Window name="PM-54-290" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-284871-285363" visible="0" x-off="0" y-off="0" x-size="1037" y-size="717" custom-ui="1"/>
-      <Window name="P-284871-285617" visible="0" x-off="0" y-off="0" x-size="1144" y-size="591" custom-ui="1"/>
-      <Window name="P-284871-285692" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-284871-285742" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-284871-285363" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-284871-285617" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-284871-285692" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-284871-285742" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-223528-223573" visible="0" x-off="1376" y-off="97" x-size="544" y-size="711" custom-ui="1"/>
       <Window name="PM-223528-223573" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-306949-307309" visible="0" x-off="1347" y-off="814" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -38940,6 +38932,14 @@ a409600 1
       <Window name="PM-770-330723" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-1130-330793" visible="0" x-off="0" y-off="0" x-size="769" y-size="455" custom-ui="1"/>
       <Window name="PM-1130-330793" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-284871-285363" visible="0" x-off="0" y-off="0" x-size="1037" y-size="717" custom-ui="1"/>
+      <Window name="P-284871-285617" visible="0" x-off="0" y-off="0" x-size="1144" y-size="591" custom-ui="1"/>
+      <Window name="P-284871-285692" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-284871-285742" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-284871-285363" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-284871-285617" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-284871-285692" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-284871-285742" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-159415-159509" visible="0" x-off="556" y-off="372" x-size="1037" y-size="708" custom-ui="1"/>
       <Window name="P-159415-159821" visible="0" x-off="0" y-off="0" x-size="1144" y-size="591" custom-ui="1"/>
       <Window name="P-159415-159915" visible="0" x-off="0" y-off="5" x-size="970" y-size="462" custom-ui="1"/>
